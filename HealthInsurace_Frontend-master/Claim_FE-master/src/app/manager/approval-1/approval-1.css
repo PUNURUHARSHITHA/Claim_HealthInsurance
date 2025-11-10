@@ -1,0 +1,51 @@
+.approval-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  color: #007bff;
+}
+
+.approval-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.approval-form label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.approval-form input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: 1px solid #007bff;
+}
+
+.approval-form button {
+  padding: 0.6rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.approval-form button:disabled {
+  background-color: #6c757d;
+}
+
+.success {
+  margin-top: 1rem;
+  color: green;
+  font-weight: 500;
+}
+
+.error {
+  margin-top: 1rem;
+  color: red;
+  font-weight: 500;
+}

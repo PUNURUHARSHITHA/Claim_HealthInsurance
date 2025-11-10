@@ -1,0 +1,35 @@
+<div class="tracking-container" *ngIf="isAdmin">
+  <h2>Claim Action Logs</h2>
+
+  <div class="input-group">
+    <label for="claimId">Claim ID:</label>
+    <input type="number" id="claimId" [(ngModel)]="claimId" />
+    <button (click)="loadLogs()">Track Claim</button>
+  </div>
+
+  <div *ngIf="loading" class="loading">Loading logs...</div>
+  <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+
+  <table *ngIf="logs.length > 0">
+    <thead>
+      <tr>
+        <th>Log ID</th>
+        <th>Action</th>
+        <th>Performed By</th>
+        <th>Timestamp</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let log of logs">
+        <td>{{ log.logID }}</td>
+        <td>{{ log.action }}</td>
+        <td>{{ log.performedBy }}</td>
+        <td>{{ log.timestamp | date:'short' }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div *ngIf="!isAdmin" class="error-message">
+  You do not have permission to view claim tracking logs.
+</div>

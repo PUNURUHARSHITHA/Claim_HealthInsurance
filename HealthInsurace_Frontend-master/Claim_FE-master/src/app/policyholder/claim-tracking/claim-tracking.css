@@ -1,0 +1,56 @@
+.tracking-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+ 
+.input-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+ 
+input {
+  padding: 6px;
+  width: 150px;
+}
+ 
+button {
+  padding: 6px 12px;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+.loading {
+  color: #0078d4;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+ 
+.error-message {
+  color: #d32f2f;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+ 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+ 
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+ 
+th {
+  background-color: #f4f4f4;
+}
+ 

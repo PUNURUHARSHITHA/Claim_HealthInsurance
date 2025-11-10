@@ -1,0 +1,14 @@
+<app-navbar></app-navbar>
+<div class="manager-layout">
+  <aside class="sidebar">
+    <h2>Manager Panel</h2>
+    <nav>
+      <a routerLink="/manager/dashboard" routerLinkActive="active">🏠 Dashboard</a>
+      <a routerLink="/manager/approval-1" routerLinkActive="active">✅ Approval Level 1</a>
+    </nav>
+  </aside>
+ 
+  <main class="content">
+    <router-outlet></router-outlet>
+  </main>
+</div>

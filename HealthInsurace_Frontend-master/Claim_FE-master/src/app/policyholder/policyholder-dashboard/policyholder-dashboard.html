@@ -1,0 +1,76 @@
+<div class="dashboard-container" *ngIf="isPolicyholder">
+  <h2>👋 Welcome, Policyholder!</h2>
+ 
+  <div *ngIf="policyholderID !== null" class="info-box">
+    <strong>Your Policyholder ID:</strong> {{ policyholderID }}
+  </div>
+ 
+  <div *ngIf="policyholderID === null && errorMessage" class="error-message">
+    {{ errorMessage }}
+  </div>
+ 
+  <!-- Dashboard Cards -->
+  <div class="card-grid">
+    <a routerLink="/policyholder/policyholder-form" class="dashboard-card">
+      <img src="assets/images/policyholderform.jpg" alt="Policyholder Form" />
+      <div class="card-content">
+        <h3>📋 Policyholder Form</h3>
+        <p>Manage your personal details and insurance profile.</p>
+      </div>
+    </a>
+ 
+    <a routerLink="/policyholder/policy-types" class="dashboard-card">
+      <img src="https://image5.slideserve.com/10967959/types-of-health-insurance-policies-l.jpg" alt="Policy Types" />
+      <div class="card-content">
+        <h3>📋 Policy Types</h3>
+        <p>Explore available insurance policies and coverage options.</p>
+      </div>
+    </a>
+ 
+    <a routerLink="/policyholder/treatments" class="dashboard-card">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.aYs-yNeEJhkWh3NUwZ-UrgHaE_?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Treatments" />
+      <div class="card-content">
+        <h3>💊 Treatments</h3>
+        <p>View covered treatments and medical procedures.</p>
+      </div>
+    </a>
+ 
+    <a routerLink="/policyholder/hospitals" class="dashboard-card">
+      <img src="https://img.freepik.com/premium-photo/new-modern-private-hospital-building-outside-with-red-cross_483949-27406.jpg" alt="Hospitals" />
+      <div class="card-content">
+        <h3>🏥 Hospitals</h3>
+        <p>Find network hospitals and healthcare providers.</p>
+      </div>
+    </a>
+ 
+    <a routerLink="/policyholder/agents" class="dashboard-card">
+      <img src="assets/images/agentimage.jpg" alt="Agents" />
+      <div class="card-content">
+        <h3>🧑‍💼 Agents</h3>
+        <p>Connect with insurance agents for assistance.</p>
+      </div>
+    </a>
+ 
+    <a routerLink="/policyholder/claims" class="dashboard-card">
+      <img src="https://th.bing.com/th/id/R.a0de7b0942957cab12caf2514ce8e5f6?rik=C7wo6GTrl2vTtQ&riu=http%3a%2f%2fwww.daberistic.com%2fuploads%2f3%2f9%2f8%2f1%2f3981899%2fpublished%2fsubmit-claim.jpg%3f1576576936&ehk=w7Pznm5J2%2bQsAJyS3t2nss3SNxFfEEmKa8oHpcmpB3M%3d&risl=&pid=ImgRaw&r=0" alt="Claim Submission" />
+      <div class="card-content">
+        <h3>🔍 Claim Submission</h3>
+        <p>Submit a new claim for your medical expenses.</p>
+      </div>
+    </a>
+ 
+    <a routerLink="/policyholder/claim-tracking" class="dashboard-card">
+      <img src="assets/images/claimtracking.jpg" alt="Claim Tracking" />
+      <div class="card-content">
+        <h3>🔍 Claim Tracking</h3>
+        <p>Track the status of your submitted claims.</p>
+      </div>
+    </a>
+  </div>
+</div>
+ 
+<div *ngIf="!isPolicyholder" class="error-message">
+  You do not have permission to view this dashboard.
+</div>
+ 
+ 

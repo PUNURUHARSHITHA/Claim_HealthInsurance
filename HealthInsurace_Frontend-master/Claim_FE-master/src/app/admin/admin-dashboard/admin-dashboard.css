@@ -1,0 +1,134 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+ 
+.dashboard-container {
+  min-height: 100vh;
+  padding: 2rem;
+  background-image: url('https://cdn.prod.website-files.com/6488c1e1383b7df38f1064c4/66afa6324a98525488be87df_one-on-one-meetings.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #e4950b;
+}
+ 
+/* Headings */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+ 
+h3 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #e4950b;
+}
+ 
+/* Error message */
+.error {
+  background-color: rgba(255, 0, 0, 0.1);
+  color: #ffdddd;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+ 
+/* Status cards */
+.status-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+ 
+.status-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  animation: fadeInCard 0.6s ease-in-out;
+}
+ 
+.status-card:hover {
+  transform: scale(1.05);
+  background-color: #e0f0ff;
+}
+ 
+.status-card.active {
+  border: 2px solid #0078d4;
+  background-color: #cce5ff;
+}
+ 
+.status-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+ 
+/* Claims table */
+.claims-table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #333;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+ 
+.claims-table th,
+.claims-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+ 
+.claims-table th {
+  background-color: #0078d4;
+  color: white;
+}
+ 
+.claims-table tr:hover {
+  background-color: #f1f1f1;
+}
+ 
+/* Info message */
+.info {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #f0f0f0;
+  text-align: center;
+}
+ 
+/* Loading message */
+.loading {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+ 
+/* Animation */
+@keyframes fadeInCard {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+ 
+ 
+ 

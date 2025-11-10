@@ -1,0 +1,55 @@
+<div class="claim-container">
+  <h2>Submit Your Claim</h2>
+
+  <form [formGroup]="claimForm" (ngSubmit)="submitClaim()" enctype="multipart/form-data">
+    <!-- Policyholder ID -->
+    <label for="policyholderID">Policyholder ID</label>
+    <input id="policyholderID" type="number" formControlName="policyholderID" />
+
+    <!-- Hospital ID Dropdown -->
+    <label for="hospitalID">Hospital ID</label>
+    <select id="hospitalID" formControlName="hospitalID">
+      <option value="">-- Select Hospital --</option>
+      <option *ngFor="let h of hospitals" [value]="h.hospitalID">
+        {{ h.hospitalID }} - {{ h.hospitalName }}
+      </option>
+    </select>
+
+    <!-- Treatment ID Dropdown -->
+    <label for="treatmentID">Treatment ID</label>
+    <select id="treatmentID" formControlName="treatmentID">
+      <option value="">-- Select Treatment --</option>
+      <option *ngFor="let t of treatments" [value]="t.treatmentID">
+        {{ t.treatmentID }} - {{ t.treatmentName }}
+      </option>
+    </select>
+
+    <!-- Auto-filled Treatment Details -->
+    <label for="treatmentDetails">Treatment Details</label>
+    <textarea id="treatmentDetails" formControlName="treatmentDetails" readonly></textarea>
+
+    <!-- File Upload -->
+    <label for="documents">Upload Documents (PDF/JPG/PNG)</label>
+    <input id="documents" type="file" (change)="onFileChange($event)" multiple />
+
+    <!-- Feedback Message -->
+    <div class="feedback"
+         [ngClass]="{
+           success: feedbackMessage.includes('Claim'),
+           error: feedbackMessage.includes('failed') || 
+                  feedbackMessage.includes('exceeds') || 
+                  feedbackMessage.includes('Upload') || 
+                  feedbackMessage.includes('unsupported') || 
+                  feedbackMessage.includes('fraud') || 
+                  feedbackMessage.includes('already')
+         }"
+         [style.display]="feedbackMessage ? 'block' : 'none'">
+      {{ feedbackMessage }}
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" [disabled]="isSubmitting">
+      Submit Claim
+    </button>
+  </form>
+</div>

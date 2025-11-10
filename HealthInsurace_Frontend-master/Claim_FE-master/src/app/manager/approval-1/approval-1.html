@@ -1,0 +1,28 @@
+<div class="approval-container">
+  <h2>Level 1 Payout Approval</h2>
+
+  <form [formGroup]="approvalForm" (ngSubmit)="approve()" class="approval-form">
+    <label for="payoutId">Payout ID</label>
+    <input
+      type="text"
+      id="payoutId"
+      formControlName="payoutId"
+      placeholder="Enter Payout ID"
+      [class.invalid]="approvalForm.get('payoutId')?.invalid && approvalForm.get('payoutId')?.touched"
+    />
+
+    <button type="submit" [disabled]="loading || approvalForm.invalid">
+      {{ loading ? 'Approving...' : 'Approve Level 1' }}
+    </button>
+  </form>
+
+  <!-- ✅ Success Message -->
+  <div *ngIf="message" class="success">
+    ✅ {{ message }}
+  </div>
+
+  <!-- ✅ Error Message -->
+  <div *ngIf="error" class="error">
+    ❌ {{ error }}
+  </div>
+</div>

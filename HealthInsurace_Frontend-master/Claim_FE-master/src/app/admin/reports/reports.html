@@ -1,0 +1,74 @@
+<div class="reports-container" *ngIf="isAdmin">
+  <h2>Claims Reports</h2>
+ 
+  <!-- Filter Section -->
+  <div class="filters">
+    <label>Type:</label>
+    <select [(ngModel)]="selectedType">
+      <option value="">All</option>
+      <option *ngFor="let t of availableTypes" [value]="t">{{ t }}</option>
+    </select>
+    <button (click)="filterByType()">Filter by Type</button>
+ 
+    <label>From:</label>
+    <input type="date" [(ngModel)]="fromDate" />
+ 
+    <label>To:</label>
+    <input type="date" [(ngModel)]="toDate" />
+    <button (click)="filterByDate()">Filter by Date</button>
+  </div>
+ 
+  <!-- Generate Section -->
+  <div class="generate">
+    <label>Claim ID:</label>
+    <input type="number" [(ngModel)]="claimId" />
+    <button (click)="generateReport()">Auto-Generate Report</button>
+  </div>
+ 
+  <!-- Chart -->
+  <div class="chart-container">
+    <canvas id="reportChart" width="400" height="200"></canvas>
+  </div>
+ 
+  <!-- Table -->
+  <table *ngIf="pagedReports.length > 0">
+    <thead>
+      <tr>
+        <th>Report ID</th>
+        <th>Claim ID</th>
+        <th>Policyholder ID</th>
+        <th>Type</th>
+        <th>Date</th>
+        <th>Insights</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let r of pagedReports">
+        <td>{{ r.reportID }}</td>
+        <td>{{ r.claimID }}</td>
+        <td>{{ r.policyholderID }}</td>
+        <td>{{ r.type }}</td>
+        <td>{{ r.generatedDate | date:'short' }}</td>
+        <td>{{ r.insights }}</td>
+        <td>
+          <button (click)="downloadReport(r.reportID)">Download PDF</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+ 
+  <!-- Pagination -->
+  <div class="pagination" *ngIf="totalPages > 1">
+    <button *ngFor="let p of [].constructor(totalPages); let i = index"
+            [class.active]="currentPage === i + 1"
+            (click)="setPage(i + 1)">
+      {{ i + 1 }}
+    </button>
+  </div>
+</div>
+ 
+<!-- Fallback for non-admins -->
+<div *ngIf="!isAdmin" class="error-message">
+  ❌ You do not have permission to view reports. Admin access required.
+</div>

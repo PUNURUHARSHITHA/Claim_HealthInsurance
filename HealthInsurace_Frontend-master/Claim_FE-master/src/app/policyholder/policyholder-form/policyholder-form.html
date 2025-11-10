@@ -1,0 +1,74 @@
+<div class="form-container">
+  <h2>Policyholder Form</h2>
+ 
+  <form [formGroup]="form" (ngSubmit)="submit()">
+    <!-- Error Message -->
+    <div *ngIf="error" class="error-message">{{ error }}</div>
+ 
+    <!-- Policy Type -->
+    <label for="policyTypeID">Policy Type</label>
+     <select formControlName="policyTypeID">
+      <option value="">-- Select PolicyTypeID --</option>
+      <option *ngFor="let p of policyTypes" [value]="p.policyTypeID">{{ p.policyTypeID }}</option>
+    </select>
+ 
+    <!-- Selected Policy Type ID Display
+    <div *ngIf="selectedPolicyType" class="info">
+      Selected: {{ selectedPolicyType.name }} (ID: {{ selectedPolicyType.policyTypeID }})
+    </div> -->
+ 
+    <!-- Agent -->
+    <label for="agentID">Agent</label>
+    <select formControlName="agentID">
+      <option value="">-- Select AgentID --</option>
+      <option *ngFor="let a of agents" [value]="a.agentID">{{ a.agentID }}</option>
+    </select>
+ 
+    <!-- Region -->
+    <label for="region">Region</label>
+    <select id="region" formControlName="region">
+      <option value="" disabled selected>Select Region</option>
+      <option *ngFor="let r of regions" [value]="r">{{ r }}</option>
+    </select>
+ 
+    <!-- Product Type -->
+    <label for="productType">Product Type</label>
+    <select id="productType" formControlName="productType">
+      <option value="" disabled selected>Select Product Type</option>
+      <option *ngFor="let p of productTypes" [value]="p">{{ p }}</option>
+    </select>
+ 
+    <!-- Phone Number -->
+    <label for="phoneNumber">Phone Number</label>
+    <input
+      id="phoneNumber"
+      type="text"
+      formControlName="phoneNumber"
+      placeholder="Enter 10-digit number"
+    />
+ 
+    <!-- Bank Reference Number -->
+    <label for="bankReferenceNumber">Bank Reference Number</label>
+    <input
+      id="bankReferenceNumber"
+      type="text"
+      formControlName="bankReferenceNumber"
+      placeholder="e.g. IFSC12345678"
+    />
+ 
+    <!-- Policy Start Date -->
+    <label for="policyStartDate">Policy Start Date</label>
+    <input
+      id="policyStartDate"
+      type="date"
+      formControlName="policyStartDate"
+    />
+ 
+    <!-- Submit Button -->
+    <button type="submit" [disabled]="submitting">
+      {{ submitting ? 'Submitting...' : 'Submit' }}
+    </button>
+  </form>
+</div>
+ 
+ 

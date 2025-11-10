@@ -1,0 +1,63 @@
+
+<div class="container">
+  <h2>Agents</h2>
+ 
+  <div *ngIf="message" class="message success">{{ message }}</div>
+  <div *ngIf="error" class="message error">{{ error }}</div>
+ 
+  <div *ngIf="isAdmin" class="admin-controls">
+    <button (click)="startCreate()">Add New Agent</button>
+  </div>
+ 
+  <div *ngIf="isAdmin && (createMode || editing)" class="form-card">
+    <h3 *ngIf="!editing">Create Agent</h3>
+    <h3 *ngIf="editing">Edit Agent</h3>
+ 
+    <form [formGroup]="form" (ngSubmit)="save()">
+      <input formControlName="AgentID" type="hidden" />
+ 
+      <label>Name</label>
+      <input formControlName="Name" />
+      <div class="error" *ngIf="form.get('Name')?.invalid && form.get('Name')?.touched">Name is required (max 100).</div>
+ 
+      <label>Contact Number</label>
+      <input formControlName="ContactNumber" />
+      <div class="error" *ngIf="form.get('ContactNumber')?.invalid && form.get('ContactNumber')?.touched">Contact must be a valid 10-digit starting with 6-9.</div>
+ 
+      <label>Email (Gmail)</label>
+      <input formControlName="Email" />
+      <div class="error" *ngIf="form.get('Email')?.invalid && form.get('Email')?.touched">Email must be a valid Gmail address.</div>
+ 
+      <div class="actions">
+        <button type="submit">{{ editing ? 'Update' : 'Create' }}</button>
+        <button type="button" (click)="cancelEdit()">Cancel</button>
+      </div>
+    </form>
+  </div>
+ 
+  <div *ngIf="!isAdmin" class="info">You are viewing agents. Login as Admin to add or modify agents.</div>
+ 
+  <table class="list">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Contact</th>
+        <th>Email</th>
+        <th *ngIf="isAdmin">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let a of agents">
+        <td>{{ a.agentID ?? a.AgentID }}</td>
+        <td>{{ a.name ?? a.Name }}</td>
+        <td>{{ a.contactNumber ?? a.ContactNumber }}</td>
+        <td>{{ a.email ?? a.Email }}</td>
+        <td *ngIf="isAdmin">
+          <button (click)="edit(a)">Edit</button>
+          <button (click)="delete(a.agentID ?? a.AgentID)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,78 @@
+/* Reset spacing globally */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout wrapper: sidebar + dashboard */
+.manager-layout {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+
+  background-image: url('https://img.freepik.com/premium-photo/accountant-calculating-tax-desk_146105-90017.jpg');
+  background-size: cover;
+  background-position: center 10%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 240px;
+  background-color: rgba(10, 115, 164, 0.95);
+  color: white;
+  padding: 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.sidebar h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #ecf0f1;
+}
+
+.sidebar nav a {
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+  margin: 0.75rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar nav a:hover,
+.sidebar nav a.active {
+  background-color: #1095c2;
+}
+
+/* Main content area */
+.content {
+  flex: 1;
+  padding: 2rem;
+  background-color: transparent; /* ✅ Removed white overlay */
+  border-radius: 8px;
+  margin: 1rem;
+  overflow-y: auto;
+  color: #fff; /* ✅ Ensure text is readable on image */
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .manager-layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .content {
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+}

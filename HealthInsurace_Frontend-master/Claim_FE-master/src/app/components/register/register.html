@@ -1,0 +1,27 @@
+<app-navbar></app-navbar>
+
+<div class="register-wrapper">
+  <div class="register-card shadow-lg">
+    <h2 class="text-center mb-4">Create your ClaimWise account</h2>
+
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+      <div class="mb-3">
+        <input type="text" class="form-control form-control-lg" formControlName="username" placeholder="Username" />
+      </div>
+      <div class="mb-3">
+        <input type="password" class="form-control form-control-lg" formControlName="password" placeholder="Password" />
+        <small>Min 8 chars, 1 letter, 1 number, 1 special character</small>
+      </div>
+      <button class="btn btn-blue w-100 mb-3" type="submit" [disabled]="loading || registerForm.invalid">
+        <span *ngIf="loading" class="spinner-border spinner-border-sm me-2"></span>
+        REGISTER
+      </button>
+    </form>
+
+    <div class="mt-2 text-center text-success" *ngIf="message">{{ message }}</div>
+
+    <div class="text-center mt-4">
+      <a href="/login" class="text-link">Do you have an account? Login</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+<div class="policyholder-container" *ngIf="isAdmin">
+  <h2>All Policyholders</h2>
+
+  <div *ngIf="loading" class="loading">Loading policyholders...</div>
+  <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+
+  <table *ngIf="policyholders.length > 0">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Region</th>
+        <th>Product Type</th>
+        <th>Phone</th>
+        <th>Bank Ref</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let p of policyholders">
+        <td>{{ p.policyholderID }}</td>
+        <td>{{ p.name }}</td>
+        <td>{{ p.region }}</td>
+        <td>{{ p.productType }}</td>
+        <td>{{ p.phoneNumber || '—' }}</td>
+        <td>{{ p.bankReferenceNumber }}</td>
+        <td>{{ p.policyStartDate | date:'shortDate' }}</td>
+        <td>{{ p.policyEndDate | date:'shortDate' }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div *ngIf="!isAdmin" class="error-message">
+  You do not have permission to view policyholder data.
+</div>

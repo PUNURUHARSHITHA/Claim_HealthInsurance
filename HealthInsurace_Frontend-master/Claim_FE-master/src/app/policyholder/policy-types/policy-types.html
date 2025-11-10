@@ -1,0 +1,87 @@
+
+<div class="container">
+  <h2>Policy Types</h2>
+
+  <!-- ✅ Success and error messages -->
+  <div *ngIf="message" class="message success">{{ message }}</div>
+  <div *ngIf="error" class="message error">{{ error }}</div>
+
+  <div *ngIf="isAdmin" class="admin-controls">
+    <button (click)="startCreate()">Add New Policy Type</button>
+  </div>
+
+  <!-- ✅ Admin form for create/edit -->
+  <div *ngIf="isAdmin && (createMode || editing)" class="form-card">
+    <h3 *ngIf="!editing">Create Policy Type</h3>
+    <h3 *ngIf="editing">Edit Policy Type</h3>
+
+    <form [formGroup]="form" (ngSubmit)="save()">
+      <input formControlName="PolicyTypeID" type="hidden" />
+
+      <label>Type Name</label>
+      <input formControlName="TypeName" />
+      <div class="error" *ngIf="form.get('TypeName')?.invalid && form.get('TypeName')?.touched">
+        Type name is required and should be letters only (max 50).
+      </div>
+
+      <label>Description</label>
+      <textarea formControlName="Description"></textarea>
+      <div class="error" *ngIf="form.get('Description')?.invalid && form.get('Description')?.touched">
+        Description is required (max 300).
+      </div>
+
+      <label>Coverage Limit</label>
+      <input formControlName="CoverageLimit" type="number" />
+      <div class="error" *ngIf="form.get('CoverageLimit')?.invalid && form.get('CoverageLimit')?.touched">
+        Coverage limit must be greater than zero.
+      </div>
+
+      <label>Policy Duration (years)</label>
+      <input formControlName="PolicyDurationYears" type="number" />
+      <div class="error" *ngIf="form.get('PolicyDurationYears')?.invalid && form.get('PolicyDurationYears')?.touched">
+        Duration required (1–100 years).
+      </div>
+
+      <div class="actions">
+        <button type="submit">{{ editing ? 'Update' : 'Create' }}</button>
+        <button type="button" (click)="cancelEdit()">Cancel</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- ✅ Table visible to Admin or Policyholder -->
+  <table class="list" *ngIf="isAdmin || isPolicyholder">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Coverage</th>
+        <th>Duration (yrs)</th>
+        <th *ngIf="isAdmin">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let t of policyTypes">
+        <td>{{ t.policyTypeID ?? t.PolicyTypeID }}</td>
+        <td>{{ t.typeName ?? t.TypeName }}</td>
+        <td>{{ t.description ?? t.Description }}</td>
+        <td>{{ (t.coverageLimit ?? t.CoverageLimit) | number:'1.0-0' }}</td>
+        <td>{{ t.policyDurationYears ?? t.PolicyDurationYears }}</td>
+        <td *ngIf="isAdmin">
+          <div class="action-buttons">
+            <button class="edit-btn" (click)="edit(t)">Edit</button>
+            <button class="delete-btn" (click)="delete(t.policyTypeID ?? t.PolicyTypeID)">Delete</button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ✅ Fallback if no data -->
+  <div *ngIf="(isAdmin || isPolicyholder) && policyTypes.length === 0" class="info">
+    No policy types found.
+  </div>
+
+  
+</div>

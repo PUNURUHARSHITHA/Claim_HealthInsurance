@@ -1,0 +1,26 @@
+<app-navbar></app-navbar>
+<div class="admin-layout">
+  <aside class="sidebar">
+    <h2>Admin Panel</h2>
+    <nav>
+      <a routerLink="/admin/admin-dashboard" routerLinkActive="active">🏠 Dashboard</a>
+      <a routerLink="/admin/policyholder-list" routerLinkActive="active">📋 Policyholder-List</a>
+      <a routerLink="/admin/policy-types" routerLinkActive="active">📋 Policy Types</a>
+      <a routerLink="/admin/treatments" routerLinkActive="active">💊 Treatments</a>
+      <a routerLink="/admin/hospitals" routerLinkActive="active">🏥 Hospitals</a>
+      <a routerLink="/admin/agents" routerLinkActive="active">🧑‍💼 Agents</a>
+      <a routerLink="/admin/reports" routerLinkActive="active">📊 Reports</a>
+      <!-- <a routerLink="/admin/create-admin" routerLinkActive="active">➕ Create Admin</a> -->
+      <a routerLink="/admin/eligibility-check" routerLinkActive="active">🔍 Eligibility-Check</a>
+      <a routerLink="/admin/claim-tracking" routerLinkActive="active">🔍 Claim Tracking</a>
+      <a routerLink="/admin/claim-underreview" routerLinkActive="active">🔍 Claim-Underreview</a>
+      <a routerLink="/admin/claim-status" routerLinkActive="active">🔍 Claim-Status</a>
+      <a routerLink="/admin/payment-processes" routerLinkActive="active">💰 Payment Processes</a>
+    </nav>
+  </aside>
+ 
+  <main class="content">
+    <router-outlet></router-outlet>
+  </main>
+</div>
+ 

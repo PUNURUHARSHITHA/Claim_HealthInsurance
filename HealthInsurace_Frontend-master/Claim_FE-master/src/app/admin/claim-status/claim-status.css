@@ -1,0 +1,79 @@
+.status-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(to right, #e3f2fd, #fce4ec);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+  color: #34495e;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #b0bec5;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+  border-color: #42a5f5;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 165, 245, 0.2);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #42a5f5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e88e5;
+}
+
+.success-message {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #e8f5e9;
+  border-left: 4px solid #66bb6a;
+  color: #2e7d32;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.error-message {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #ffebee;
+  border-left: 4px solid #e53935;
+  color: #c62828;
+  font-weight: 500;
+  border-radius: 6px;
+  text-align: center;
+}

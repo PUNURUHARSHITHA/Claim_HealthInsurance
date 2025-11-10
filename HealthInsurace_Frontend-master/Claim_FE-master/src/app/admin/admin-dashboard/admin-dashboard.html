@@ -1,0 +1,46 @@
+<div class="dashboard-container">
+  <h2>Admin Dashboard</h2>
+
+  <div *ngIf="error" class="error">{{ error }}</div>
+
+  <div *ngIf="statusCounts && !error">
+    <h3>Claim Status Overview</h3>
+    <div class="status-grid">
+      <div
+        class="status-card"
+        *ngFor="let key of statusKeys"
+        (click)="filterByStatus(key)"
+        [class.active]="selectedStatus === key"
+      >
+        <h4>{{ getStatusIcon(key) }} {{ key }}</h4>
+        <p>{{ statusCounts[key] }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="selectedStatus && !loading">
+    <h3>{{ selectedStatus }} Claims</h3>
+    <table class="claims-table" *ngIf="filteredClaims.length > 0">
+      <thead>
+        <tr>
+          <th>Claim ID</th>
+          <th>Status</th>
+          <th>Submitted On</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let claim of filteredClaims">
+          <td>{{ claim.claimID }}</td>
+          <td>{{ claim.status }}</td>
+          <td>{{ claim.submissionDate | date: 'mediumDate' }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="info" *ngIf="filteredClaims.length === 0">
+      No {{ selectedStatus }} claims found.
+    </p>
+  </div>
+
+  <div *ngIf="loading" class="loading">Loading {{ selectedStatus }} claims...</div>
+</div>

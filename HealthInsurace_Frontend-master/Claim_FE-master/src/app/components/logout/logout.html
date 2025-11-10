@@ -1,0 +1,12 @@
+<app-navbar></app-navbar>
+
+<div class="logout-wrapper">
+  <div class="container">
+    <h2>Logout</h2>
+
+    <div *ngIf="message" class="message success">{{ message }}</div>
+    <div *ngIf="error" class="message error">{{ error }}</div>
+
+    <button (click)="onLogout()">Logout</button>
+  </div>
+</div>

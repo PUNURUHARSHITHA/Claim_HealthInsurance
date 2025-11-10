@@ -1,0 +1,75 @@
+
+<div class="container">
+  <h2>Hospitals</h2>
+
+  <!-- ✅ Success and error messages -->
+  <div *ngIf="message" class="message success">{{ message }}</div>
+  <div *ngIf="error" class="message error">{{ error }}</div>
+
+  <!-- ✅ Admin form for create/edit -->
+  <div *ngIf="isAdmin && (createMode || editing)" class="form-card">
+    <h3 *ngIf="!editing">Create Hospital</h3>
+    <h3 *ngIf="editing">Edit Hospital</h3>
+
+    <form [formGroup]="form" (ngSubmit)="save()">
+      <input formControlName="HospitalID" type="hidden" />
+
+      <label>Hospital Name</label>
+      <input formControlName="HospitalName" />
+      <div class="error" *ngIf="form.get('HospitalName')?.invalid && form.get('HospitalName')?.touched">
+        Name is required and should be letters only (max 100).
+      </div>
+
+      <label>Location</label>
+      <input formControlName="Location" />
+      <div class="error" *ngIf="form.get('Location')?.invalid && form.get('Location')?.touched">
+        Location is required (max 100).
+      </div>
+
+      <label>
+        <input type="checkbox" formControlName="IsNetworkHospital" />
+        Is Network Hospital
+      </label>
+
+      <div class="actions">
+        <button type="submit">{{ editing ? 'Update' : 'Create' }}</button>
+        <button type="button" (click)="cancelEdit()">Cancel</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- ✅ Hospital table for Admin and Policyholder -->
+  <table class="list" *ngIf="hospitals.length > 0">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Network</th>
+        <th *ngIf="isAdmin">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let h of hospitals">
+        <td>{{ h.hospitalID ?? h.HospitalID }}</td>
+        <td>{{ h.hospitalName ?? h.HospitalName }}</td>
+        <td>{{ h.location ?? h.Location }}</td>
+        <td>{{ (h.isNetworkHospital ?? h.IsNetworkHospital) ? 'Yes' : 'No' }}</td>
+        <td *ngIf="isAdmin">
+          <button (click)="edit(h)">Edit</button>
+          <button (click)="delete(h.hospitalID ?? h.HospitalID)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ✅ Fallback if no hospitals -->
+  <div *ngIf="hospitals.length === 0" class="info">
+    No hospitals found.
+  </div>
+
+  <!-- ✅ Admin create button -->
+  <div *ngIf="isAdmin" class="admin-controls mt-4">
+    <button (click)="startCreate()">Add New Hospital</button>
+  </div>
+</div>

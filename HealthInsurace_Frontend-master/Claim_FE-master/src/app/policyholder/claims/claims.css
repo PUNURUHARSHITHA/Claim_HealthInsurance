@@ -1,0 +1,109 @@
+/* Reset spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container styling */
+.claim-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(to right, #f0f4ff, #e0f7fa);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Heading */
+.claim-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0077b6;
+}
+
+/* Label styling */
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #0077b6; /* Matches Policyholder Form */
+}
+
+/* Input, select, textarea styling */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background-color: white;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Readonly textarea */
+textarea[readonly] {
+  background-color: #f0f0f0;
+  color: #555;
+}
+
+/* Remove native select arrow for consistency */
+select {
+  appearance: none;
+}
+
+/* Textarea resizing */
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Feedback messages */
+.feedback {
+  margin-top: 12px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.feedback.success {
+  background-color: #e6ffea;
+  color: #155724;
+  border: 1px solid #b7f0c6;
+}
+
+.feedback.error {
+  background-color: #f6f3f3;
+  color: #f40820;
+  border: 1px solid #f5c6cb;
+}
+
+/* Submit button */
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3498db;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}

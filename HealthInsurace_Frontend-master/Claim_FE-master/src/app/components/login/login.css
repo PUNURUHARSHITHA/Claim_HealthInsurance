@@ -1,0 +1,87 @@
+/* Full-page background image */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.login-wrapper {
+  min-height: 100vh;
+  background-image: url('https://static.wixstatic.com/media/74b21e_cd95175006134ad5af799631d2d41a0e~mv2.png/v1/fill/w_1130,h_488,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/74b21e_cd95175006134ad5af799631d2d41a0e~mv2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Semi-transparent login card */
+.login-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.login-card:hover {
+  transform: translateY(-4px);
+}
+
+h2 {
+  color: #333;
+  font-weight: 600;
+}
+
+.btn-blue {
+  background-color: #0078d4;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-blue:hover {
+  background-color: #005fa3;
+  transform: scale(1.02);
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0.75rem 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #0078d4;
+  box-shadow: 0 0 0 0.2rem rgba(0, 120, 212, 0.25);
+  outline: none;
+}
+
+.text-success {
+  color: #28a745;
+  font-weight: 500;
+}
+
+.text-error {
+  color: #dc3545;
+  font-weight: 500;
+}
+
+.text-link {
+  color: #0078d4;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.text-link:hover {
+  color: #005fa3;
+}

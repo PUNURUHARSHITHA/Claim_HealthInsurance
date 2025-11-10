@@ -1,0 +1,68 @@
+<div class="payment-container">
+  <h2>Payment Processes</h2>
+ 
+  <form [formGroup]="payoutForm">
+    <label for="claimID">Claim ID</label>
+    <input id="claimID" type="number" formControlName="claimID" placeholder="Enter Claim ID" />
+ 
+    <button type="button" (click)="calculate()" [disabled]="payoutForm.get('claimID')?.invalid || role !== 'Admin'">
+      Calculate Payout
+    </button>
+ 
+    <label for="payoutID">Payout ID</label>
+    <input id="payoutID" type="number" formControlName="payoutID" placeholder="Enter Payout ID" />
+ 
+    <button type="button" (click)="approveLevel2()" [disabled]="payoutForm.get('payoutID')?.invalid || role !== 'Admin'">
+      Approve Level 2
+    </button>
+ 
+    <button type="button" (click)="transfer()" [disabled]="payoutForm.get('payoutID')?.invalid || (role !== 'Admin' && role !== 'Manager')">
+      Mark as Transferred
+    </button>
+  </form>
+ 
+  <div *ngIf="result" class="success">{{ result }}</div>
+  <div *ngIf="error" class="error">{{ error }}</div>
+ 
+  <div class="container">
+  <!-- ✅ Button to load all payouts -->
+  <div class="payout-list-button">
+    <button (click)="loadAllPayouts()" *ngIf="role === 'Admin' || role === 'Manager'">
+      <i class="fas fa-eye icon"></i> View All Payouts
+    </button>
+  </div>
+ 
+  <!-- ✅ Table of payouts -->
+  <table class="list" *ngIf="showPayouts && allPayouts.length > 0">
+    <thead>
+      <tr>
+        <th><i class="fas fa-id-card"></i> ID</th>
+        <th><i class="fas fa-file-invoice"></i> Claim</th>
+        <th><i class="fas fa-rupee-sign"></i> Amount</th>
+        <th><i class="fas fa-info-circle"></i> Status</th>
+        <th><i class="fas fa-user-check"></i> Level 1</th>
+        <th><i class="fas fa-user-tie"></i> Level 2</th>
+        <th><i class="fas fa-exchange-alt"></i> Transfer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let p of allPayouts">
+        <td>{{ p.payoutID }}</td>
+        <td>{{ p.claimID }}</td>
+        <td>₹{{ p.amount }}</td>
+        <td>{{ p.approvalStatus }}</td>
+        <td>{{ p.approvedByLevel1 }}</td>
+        <td>{{ p.approvedByLevel2 }}</td>
+        <td>{{ p.transferStatus }}</td>
+      </tr>
+    </tbody>
+  </table>
+ 
+  <!-- ✅ Empty State -->
+  <div *ngIf="showPayouts && allPayouts.length === 0" class="info">
+    No payouts found.
+  </div>
+</div>
+</div>
+ 
+ 

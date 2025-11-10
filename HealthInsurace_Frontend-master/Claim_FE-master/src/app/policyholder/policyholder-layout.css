@@ -1,0 +1,83 @@
+/* Reset spacing globally */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout wrapper: sidebar + dashboard */
+.policyholder-layout {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  overflow: hidden;
+
+  /* ✅ Apply background image to entire layout */
+  background-image: url('/assets/images/policyholderbg3.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 240px;
+  background-color: rgba(10, 115, 164, 0.95); /* Slight transparency for overlay effect */
+  color: white;
+  padding: 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.sidebar h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #ecf0f1;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+/* Navigation links */
+.sidebar nav a {
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+  margin: 0.75rem 0;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar nav a:hover,
+.sidebar nav a.active {
+  background-color: #1095c2;
+}
+
+/* Main content area */
+.content {
+  flex: 1;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow-y: auto;
+  z-index: 0;
+}
+
+/* Optional: Responsive tweaks */
+@media (max-width: 768px) {
+  .policyholder-layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+}

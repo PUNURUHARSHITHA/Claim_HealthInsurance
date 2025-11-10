@@ -1,0 +1,35 @@
+<div class="check-container" *ngIf="isAdmin">
+  <h2>Run Eligibility Check</h2>
+
+  <div class="form-group">
+    <label for="claimID">Claim ID:</label>
+    <input type="number" id="claimID" [(ngModel)]="claimID" placeholder="Enter Claim ID" />
+  </div>
+
+  <button (click)="runCheck()">Run Check</button>
+
+  <div *ngIf="error" class="error-message">{{ error }}</div>
+
+  <div *ngIf="result" class="result-box">
+    <h3>Result: {{ result.result }}</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Rule Applied</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let rule of result.rulesApplied; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ rule }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div *ngIf="!isAdmin" class="error-message">
+  You do not have permission to run eligibility checks.
+</div>

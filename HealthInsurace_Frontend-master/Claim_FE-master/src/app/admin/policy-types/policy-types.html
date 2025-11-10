@@ -1,0 +1,87 @@
+<div class="container">
+  <!-- Header -->
+  <h2 class="title">
+    <i class="fas fa-shield-alt icon"></i> Policy Types
+  </h2>
+ 
+  <!-- Messages -->
+  <div *ngIf="message" class="message success">{{ message }}</div>
+  <div *ngIf="error" class="message error">{{ error }}</div>
+ 
+  <!-- Admin Controls -->
+  <div *ngIf="isAdmin" class="admin-controls">
+    <button (click)="startCreate()" title="Add New Policy Type">
+      <i class="fas fa-plus-circle icon"></i>
+    </button>
+  </div>
+ 
+  <!-- Form -->
+  <div *ngIf="isAdmin && (createMode || editing)" class="form-card">
+    <h3>{{ editing ? 'Edit Policy Type' : 'Create Policy Type' }}</h3>
+    <form [formGroup]="form" (ngSubmit)="save()">
+      <input formControlName="PolicyTypeID" type="hidden" />
+ 
+      <label><i class="fas fa-file-alt icon"></i> Type Name</label>
+      <input formControlName="TypeName" />
+      <div class="error" *ngIf="form.get('TypeName')?.invalid && form.get('TypeName')?.touched">
+        Type name is required and should be letters only (max 50).
+      </div>
+ 
+      <label><i class="fas fa-align-left icon"></i> Description</label>
+      <textarea formControlName="Description"></textarea>
+      <div class="error" *ngIf="form.get('Description')?.invalid && form.get('Description')?.touched">
+        Description is required (max 300).
+      </div>
+ 
+      <label><i class="fas fa-coins icon"></i> Coverage Limit</label>
+      <input formControlName="CoverageLimit" type="number" />
+      <div class="error" *ngIf="form.get('CoverageLimit')?.invalid && form.get('CoverageLimit')?.touched">
+        Coverage limit must be greater than zero.
+      </div>
+ 
+      <label><i class="fas fa-hourglass-half icon"></i> Policy Duration (years)</label>
+      <input formControlName="PolicyDurationYears" type="number" />
+      <div class="error" *ngIf="form.get('PolicyDurationYears')?.invalid && form.get('PolicyDurationYears')?.touched">
+        Duration required (1–100 years).
+      </div>
+ 
+      <div class="actions">
+        <button type="submit">{{ editing ? 'Update' : 'Create' }}</button>
+        <button type="button" (click)="cancelEdit()">Cancel</button>
+      </div>
+    </form>
+  </div>
+ 
+  <!-- Table -->
+  <table class="list" *ngIf="isAdmin || isPolicyholder">
+    <thead>
+      <tr>
+        <th><i class="fas fa-id-card"></i> ID</th>
+        <th><i class="fas fa-file-alt"></i> Name</th>
+        <th><i class="fas fa-align-left"></i> Description</th>
+        <th><i class="fas fa-coins"></i> Coverage</th>
+        <th><i class="fas fa-hourglass-half"></i> Duration (yrs)</th>
+        <th *ngIf="isAdmin"><i class="fas fa-tools"></i> Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let t of policyTypes">
+        <td>{{ t.policyTypeID ?? t.PolicyTypeID }}</td>
+        <td>{{ t.typeName ?? t.TypeName }}</td>
+        <td>{{ t.description ?? t.Description }}</td>
+        <td>{{ (t.coverageLimit ?? t.CoverageLimit) | number:'1.0-0' }}</td>
+        <td>{{ t.policyDurationYears ?? t.PolicyDurationYears }}</td>
+        <td *ngIf="isAdmin" class="actions-cell">
+          <button class="icon-btn edit-icon" title="Edit" (click)="edit(t)">🖉</button>
+          <button class="icon-btn delete-icon" title="Delete" (click)="delete(t.policyTypeID ?? t.PolicyTypeID)">🗑️</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+ 
+  <!-- Empty State -->
+  <div *ngIf="(isAdmin || isPolicyholder) && policyTypes.length === 0" class="info">
+    No policy types found.
+  </div>
+</div>
+ 

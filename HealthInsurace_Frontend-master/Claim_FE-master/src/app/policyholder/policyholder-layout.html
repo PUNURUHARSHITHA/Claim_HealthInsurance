@@ -1,0 +1,22 @@
+<app-navbar></app-navbar>
+<div class="policyholder-layout">
+  <aside class="sidebar">
+    <h2>Policyholder Panel</h2>
+    <nav>
+      <!-- <a routerLink="/policyholder/policyholder-panel" routerLinkActive="active">🏠 Dashboard</a> -->
+      <a routerLink="/policyholder/policyholder-dashboard" routerLinkActive="active">🏠 Dashboard</a>
+      <a routerLink="/policyholder/policyholder-form" routerLinkActive="active">📋 Policyholder-Form</a>
+      <a routerLink="/policyholder/policy-types" routerLinkActive="active">📋 Policy Types</a>
+      <a routerLink="/policyholder/treatments" routerLinkActive="active">💊 Treatments</a>
+      <a routerLink="/policyholder/hospitals" routerLinkActive="active">🏥 Hospitals</a>
+      <a routerLink="/policyholder/agents" routerLinkActive="active">🧑‍💼 Agents</a>
+      <a routerLink="/policyholder/claims" routerLinkActive="active">🔍 Claim-Submission</a>
+      <a routerLink="/policyholder/claim-tracking" routerLinkActive="active">🔍 Claim Tracking</a>
+
+    </nav>
+  </aside>
+ 
+  <main class="content">
+    <router-outlet></router-outlet>
+  </main>
+</div>

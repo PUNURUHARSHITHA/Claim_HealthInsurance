@@ -1,0 +1,82 @@
+<div class="container">
+  <!-- Header -->
+  <h2 class="title">
+    <i class="fas fa-shield-alt icon"></i> Hospitals
+  </h2>
+ 
+  <!-- FAB Button -->
+  <div *ngIf="isAdmin" class="fab-container">
+    <button class="fab-btn" (click)="startCreate()" title="Add New Hospital">
+      <i class="fas fa-plus"></i>
+    </button>
+  </div>
+ 
+  <!-- Messages -->
+  <div *ngIf="message" class="message success">{{ message }}</div>
+  <div *ngIf="error" class="message error">{{ error }}</div>
+ 
+  <!-- Form -->
+  <div *ngIf="isAdmin && (createMode || editing)" class="form-card">
+    <h3>{{ editing ? 'Edit Hospital' : 'Create Hospital' }}</h3>
+    <form [formGroup]="form" (ngSubmit)="save()">
+      <input formControlName="HospitalID" type="hidden" />
+ 
+      <label>Hospital Name</label>
+      <input formControlName="HospitalName" />
+      <div class="error" *ngIf="form.get('HospitalName')?.invalid && form.get('HospitalName')?.touched">
+        Name is required and should be letters only (max 100).
+      </div>
+ 
+      <label>Location</label>
+      <input formControlName="Location" />
+      <div class="error" *ngIf="form.get('Location')?.invalid && form.get('Location')?.touched">
+        Location is required (max 100).
+      </div>
+ 
+      <label class="checkbox-label">
+        <input type="checkbox" formControlName="IsNetworkHospital" />
+        Is Network Hospital
+      </label>
+ 
+      <div class="actions">
+        <button type="submit">{{ editing ? 'Update' : 'Create' }}</button>
+        <button type="button" (click)="cancelEdit()">Cancel</button>
+      </div>
+    </form>
+  </div>
+ 
+  <!-- Table -->
+  <table class="list" *ngIf="hospitals.length > 0">
+    <thead>
+      <tr>
+        <th><i class="fas fa-id-card"></i> ID</th>
+        <th><i class="fas fa-hospital"></i> Name</th>
+        <th><i class="fas fa-map-marker-alt"></i> Location</th>
+        <th><i class="fas fa-network-wired"></i> Network</th>
+        <th *ngIf="isAdmin"><i class="fas fa-tools"></i> Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let h of hospitals; trackBy: trackById">
+        <td>{{ h.hospitalID ?? h.HospitalID }}</td>
+        <td>{{ h.hospitalName ?? h.HospitalName }}</td>
+        <td>{{ h.location ?? h.Location }}</td>
+        <td class="centered">
+          <span class="network-icon">
+            {{ (h.isNetworkHospital ?? h.IsNetworkHospital) ? '✅' : '❌' }}
+          </span>
+        </td>
+        <td *ngIf="isAdmin" class="actions-cell">
+          <button class="icon-btn edit-icon" title="Edit" (click)="edit(h)">🖉</button>
+          <button class="icon-btn delete-icon" title="Delete" (click)="delete(h.hospitalID ?? h.HospitalID)">🗑️</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+ 
+  <!-- Empty State -->
+  <div *ngIf="hospitals.length === 0" class="info">
+    No hospitals found.
+  </div>
+</div>
+ 

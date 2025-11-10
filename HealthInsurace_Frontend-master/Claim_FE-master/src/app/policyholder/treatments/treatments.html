@@ -1,0 +1,71 @@
+
+<div class="container">
+  <h2>Treatments</h2>
+
+  <div *ngIf="message" class="message success">{{ message }}</div>
+  <div *ngIf="error" class="message error">{{ error }}</div>
+
+  <div *ngIf="isAdmin" class="admin-controls">
+    <button (click)="startCreate()">Add New Treatment</button>
+  </div>
+
+  <div *ngIf="isAdmin && (createMode || editing)" class="form-card">
+    <h3 *ngIf="!editing">Create Treatment</h3>
+    <h3 *ngIf="editing">Edit Treatment</h3>
+
+    <form [formGroup]="form" (ngSubmit)="save()">
+      <input formControlName="TreatmentID" type="hidden" />
+
+      <label>Treatment Name</label>
+      <input formControlName="TreatmentName" />
+      <div class="error" *ngIf="form.get('TreatmentName')?.invalid && form.get('TreatmentName')?.touched">
+        Name is required and must be letters only (max 100).
+      </div>
+
+      <label>Is Covered</label>
+      <select formControlName="IsCovered">
+        <option [value]="true">Yes</option>
+        <option [value]="false">No</option>
+      </select>
+
+      <label>Waiting Period (months)</label>
+      <input formControlName="WaitingPeriodMonths" type="number" />
+      <div class="error" *ngIf="form.get('WaitingPeriodMonths')?.invalid && form.get('WaitingPeriodMonths')?.touched">
+        Must be between 0 and 24 months.
+      </div>
+
+      <div class="actions">
+        <button type="submit">{{ editing ? 'Update' : 'Create' }}</button>
+        <button type="button" (click)="cancelEdit()">Cancel</button>
+      </div>
+    </form>
+  </div>
+
+  <table class="list" *ngIf="treatments.length > 0">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Covered</th>
+        <th>Waiting Period</th>
+        <th *ngIf="isAdmin">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let t of treatments">
+        <td>{{ t.treatmentID ?? t.TreatmentID }}</td>
+        <td>{{ t.treatmentName ?? t.TreatmentName }}</td>
+        <td>{{ (t.isCovered ?? t.IsCovered) ? 'Yes' : 'No' }}</td>
+        <td>{{ t.waitingPeriodMonths ?? t.WaitingPeriodMonths }}</td>
+        <td *ngIf="isAdmin">
+          <div class="action-buttons">
+            <button class="edit-btn" (click)="edit(t)">Edit</button>
+            <button class="delete-btn" (click)="delete(t.treatmentID ?? t.TreatmentID)">Delete</button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div *ngIf="treatments.length === 0" class="info">No treatments found.</div>
+</div>

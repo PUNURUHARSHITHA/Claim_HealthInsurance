@@ -1,0 +1,66 @@
+/* Container styling */
+.policyholder-container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1); /* Soft transparent overlay */
+  backdrop-filter: blur(4px); /* Frosted glass effect */
+  border-radius: 8px;
+  color: #fff; /* Ensures text is readable over dark backgrounds */
+}
+
+/* Heading */
+h2 {
+  color: #13a1e2;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+/* Loading message */
+.loading {
+  font-style: italic;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+/* Error message */
+.error-message {
+  color: #ff4d4d;
+  margin-top: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  background-color: rgba(255, 255, 255, 0.1); /* Transparent table background */
+  color: #fff;
+  backdrop-filter: blur(4px);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Table cells */
+th, td {
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: left;
+  color:black
+}
+
+/* Table header */
+th {
+  background-color: rgba(0, 120, 212, 0.8); /* Blue header */
+  color: white;
+}
+
+/* Row striping and hover */
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05); /* Subtle contrast */
+}
+
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.15); /* Highlight on hover */
+}

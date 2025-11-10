@@ -1,0 +1,55 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.logout-wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('https://s.hdnux.com/photos/01/41/76/26/25683334/3/rawImage.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  /* background-color: rgba(255, 255, 255, 0.95); */
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c82333;
+}
+
+.message.success {
+  color: green;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.message.error {
+  color: red;
+  margin-top: 20px;
+  font-weight: 500;
+}

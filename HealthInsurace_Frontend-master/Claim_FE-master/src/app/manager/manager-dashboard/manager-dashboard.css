@@ -1,0 +1,54 @@
+/* Dashboard container without background image */
+.dashboard-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+
+  /* ❌ Removed background image */
+  /* background-image: url('https://i.pinimg.com/736x/d2/e3/f4/d2e3f408b5935acd39d263a4e87b0d30.jpg'); */
+  background-color: #f4f4f4; /* ✅ Light neutral background */
+  min-height: 100vh;
+  position: relative;
+  color: #333;
+}
+
+/* ❌ Removed overlay */
+/* .dashboard-container::before {
+  /* Removed to eliminate white layer */
+/* } */ 
+
+/* Content layering (still useful for structure) */
+.dashboard-container > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Heading */
+h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  background-color: #fff; /* ✅ Solid white for clarity */
+  border-radius: 6px;
+  overflow: hidden;
+  color: #333;
+}
+
+table th, table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+/* Error message */
+.error {
+  color: #dc3545;
+  font-weight: bold;
+  margin-top: 20px;
+}
