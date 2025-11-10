@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimWise.Domain", "ClaimWiseDomain\ClaimWise.Domain.csproj", "{6F317DAE-7ABE-440C-AEF6-22C605184DF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimWise.Application", "ClaimWiseApplication\ClaimWise.Application.csproj", "{7FA8CEF8-07D6-47BC-B431-8CAB62EF0E81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimWise.Infrastructure", "ClaimWise.Infrastructure\ClaimWise.Infrastructure.csproj", "{517BB794-1A04-42AC-B42E-F38CD165F893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimWise.API", "ClaimWise.API\ClaimWise.API.csproj", "{E28324EB-3468-4556-A49B-DF3CAD934DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimWise.Tests", "ClaimWise.Tests\ClaimWise.Tests.csproj", "{9919EB62-1B25-4429-82E7-61CDE895FC3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F317DAE-7ABE-440C-AEF6-22C605184DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F317DAE-7ABE-440C-AEF6-22C605184DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F317DAE-7ABE-440C-AEF6-22C605184DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F317DAE-7ABE-440C-AEF6-22C605184DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FA8CEF8-07D6-47BC-B431-8CAB62EF0E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA8CEF8-07D6-47BC-B431-8CAB62EF0E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA8CEF8-07D6-47BC-B431-8CAB62EF0E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA8CEF8-07D6-47BC-B431-8CAB62EF0E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{517BB794-1A04-42AC-B42E-F38CD165F893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{517BB794-1A04-42AC-B42E-F38CD165F893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517BB794-1A04-42AC-B42E-F38CD165F893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{517BB794-1A04-42AC-B42E-F38CD165F893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E28324EB-3468-4556-A49B-DF3CAD934DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E28324EB-3468-4556-A49B-DF3CAD934DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E28324EB-3468-4556-A49B-DF3CAD934DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E28324EB-3468-4556-A49B-DF3CAD934DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9919EB62-1B25-4429-82E7-61CDE895FC3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9919EB62-1B25-4429-82E7-61CDE895FC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9919EB62-1B25-4429-82E7-61CDE895FC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9919EB62-1B25-4429-82E7-61CDE895FC3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A118842F-FE65-490D-B6CE-64A4BA57734E}
+	EndGlobalSection
+EndGlobal

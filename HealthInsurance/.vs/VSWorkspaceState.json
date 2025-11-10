@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ClaimWise.Web\\Models",
+    "\\ClaimWiseDomain",
+    "\\ClaimWiseDomain\\Models"
+  ],
+  "SelectedNode": "\\ClaimWiseDomain\\Models\\ClaimWiseDbContext.cs",
+  "PreviewInSolutionExplorer": false
+}

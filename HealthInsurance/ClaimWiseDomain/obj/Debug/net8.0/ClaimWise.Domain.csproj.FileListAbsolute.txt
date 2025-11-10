@@ -1,0 +1,180 @@
+C:\Users\2436727\Downloads\Project\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.deps.json
+C:\Users\2436727\Downloads\Project\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.runtimeconfig.json
+C:\Users\2436727\Downloads\Project\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\Project\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436727\Downloads\Project\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.AssemblyReference.cache
+C:\Users\2436727\Downloads\Project\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2436727\Downloads\Project\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfoInputs.cache
+C:\Users\2436727\Downloads\Project\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfo.cs
+C:\Users\2436727\Downloads\Project\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.CoreCompileInputs.cache
+C:\Users\2436727\Downloads\Project\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.sourcelink.json
+C:\Users\2436727\Downloads\Project\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\Project\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\refint\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\Project\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436727\Downloads\Project\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.genruntimeconfig.cache
+C:\Users\2436727\Downloads\Project\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ref\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.deps.json
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.runtimeconfig.json
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.AssemblyReference.cache
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfoInputs.cache
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfo.cs
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.CoreCompileInputs.cache
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.sourcelink.json
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\refint\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.genruntimeconfig.cache
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ref\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.deps.json
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.runtimeconfig.json
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.AssemblyReference.cache
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfoInputs.cache
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfo.cs
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.CoreCompileInputs.cache
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.sourcelink.json
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\refint\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.genruntimeconfig.cache
+C:\Users\2436727\Downloads\Project\HealthInsurance\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ref\ClaimWise.Domain.dll
+C:\Users\2436727\Music\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.deps.json
+C:\Users\2436727\Music\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.runtimeconfig.json
+C:\Users\2436727\Music\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436727\Music\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436727\Music\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.AssemblyReference.cache
+C:\Users\2436727\Music\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2436727\Music\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfoInputs.cache
+C:\Users\2436727\Music\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfo.cs
+C:\Users\2436727\Music\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.CoreCompileInputs.cache
+C:\Users\2436727\Music\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.sourcelink.json
+C:\Users\2436727\Music\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436727\Music\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\refint\ClaimWise.Domain.dll
+C:\Users\2436727\Music\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436727\Music\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.genruntimeconfig.cache
+C:\Users\2436727\Music\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ref\ClaimWise.Domain.dll
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 8 (1)\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.deps.json
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 8 (1)\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.runtimeconfig.json
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 8 (1)\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 8 (1)\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 8 (1)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.AssemblyReference.cache
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 8 (1)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 8 (1)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfoInputs.cache
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 8 (1)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfo.cs
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 8 (1)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.CoreCompileInputs.cache
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 8 (1)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.sourcelink.json
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 8 (1)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 8 (1)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\refint\ClaimWise.Domain.dll
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 8 (1)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 8 (1)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.genruntimeconfig.cache
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 8 (1)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ref\ClaimWise.Domain.dll
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_(Module1 Validations and implemented patch in Agent)\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.deps.json
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_(Module1 Validations and implemented patch in Agent)\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.runtimeconfig.json
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_(Module1 Validations and implemented patch in Agent)\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_(Module1 Validations and implemented patch in Agent)\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_(Module1 Validations and implemented patch in Agent)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.AssemblyReference.cache
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_(Module1 Validations and implemented patch in Agent)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_(Module1 Validations and implemented patch in Agent)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfoInputs.cache
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_(Module1 Validations and implemented patch in Agent)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfo.cs
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_(Module1 Validations and implemented patch in Agent)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.CoreCompileInputs.cache
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_(Module1 Validations and implemented patch in Agent)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.sourcelink.json
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_(Module1 Validations and implemented patch in Agent)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_(Module1 Validations and implemented patch in Agent)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\refint\ClaimWise.Domain.dll
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_(Module1 Validations and implemented patch in Agent)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_(Module1 Validations and implemented patch in Agent)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.genruntimeconfig.cache
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_(Module1 Validations and implemented patch in Agent)\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ref\ClaimWise.Domain.dll
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.deps.json
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.runtimeconfig.json
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.AssemblyReference.cache
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfoInputs.cache
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfo.cs
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.CoreCompileInputs.cache
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.sourcelink.json
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\refint\ClaimWise.Domain.dll
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.genruntimeconfig.cache
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ref\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.deps.json
+C:\Users\2436727\Downloads\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.runtimeconfig.json
+C:\Users\2436727\Downloads\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436727\Downloads\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.AssemblyReference.cache
+C:\Users\2436727\Downloads\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2436727\Downloads\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfoInputs.cache
+C:\Users\2436727\Downloads\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfo.cs
+C:\Users\2436727\Downloads\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.CoreCompileInputs.cache
+C:\Users\2436727\Downloads\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.sourcelink.json
+C:\Users\2436727\Downloads\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\refint\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436727\Downloads\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.genruntimeconfig.cache
+C:\Users\2436727\Downloads\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ref\ClaimWise.Domain.dll
+C:\Users\2436706\Downloads\HealthInsurance_Module1 4\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.deps.json
+C:\Users\2436706\Downloads\HealthInsurance_Module1 4\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.runtimeconfig.json
+C:\Users\2436706\Downloads\HealthInsurance_Module1 4\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436706\Downloads\HealthInsurance_Module1 4\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436706\Downloads\HealthInsurance_Module1 4\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.AssemblyReference.cache
+C:\Users\2436706\Downloads\HealthInsurance_Module1 4\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2436706\Downloads\HealthInsurance_Module1 4\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfoInputs.cache
+C:\Users\2436706\Downloads\HealthInsurance_Module1 4\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfo.cs
+C:\Users\2436706\Downloads\HealthInsurance_Module1 4\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.CoreCompileInputs.cache
+C:\Users\2436706\Downloads\HealthInsurance_Module1 4\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.sourcelink.json
+C:\Users\2436706\Downloads\HealthInsurance_Module1 4\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436706\Downloads\HealthInsurance_Module1 4\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\refint\ClaimWise.Domain.dll
+C:\Users\2436706\Downloads\HealthInsurance_Module1 4\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436706\Downloads\HealthInsurance_Module1 4\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.genruntimeconfig.cache
+C:\Users\2436706\Downloads\HealthInsurance_Module1 4\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ref\ClaimWise.Domain.dll
+C:\Users\2436731\Downloads\My_Project\HealthInsurance_updated\HealthInsurance_updated\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.deps.json
+C:\Users\2436731\Downloads\My_Project\HealthInsurance_updated\HealthInsurance_updated\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.runtimeconfig.json
+C:\Users\2436731\Downloads\My_Project\HealthInsurance_updated\HealthInsurance_updated\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436731\Downloads\My_Project\HealthInsurance_updated\HealthInsurance_updated\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436731\Downloads\My_Project\HealthInsurance_updated\HealthInsurance_updated\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.AssemblyReference.cache
+C:\Users\2436731\Downloads\My_Project\HealthInsurance_updated\HealthInsurance_updated\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2436731\Downloads\My_Project\HealthInsurance_updated\HealthInsurance_updated\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfoInputs.cache
+C:\Users\2436731\Downloads\My_Project\HealthInsurance_updated\HealthInsurance_updated\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfo.cs
+C:\Users\2436731\Downloads\My_Project\HealthInsurance_updated\HealthInsurance_updated\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.CoreCompileInputs.cache
+C:\Users\2436731\Downloads\My_Project\HealthInsurance_updated\HealthInsurance_updated\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.sourcelink.json
+C:\Users\2436731\Downloads\My_Project\HealthInsurance_updated\HealthInsurance_updated\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436731\Downloads\My_Project\HealthInsurance_updated\HealthInsurance_updated\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\refint\ClaimWise.Domain.dll
+C:\Users\2436731\Downloads\My_Project\HealthInsurance_updated\HealthInsurance_updated\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436731\Downloads\My_Project\HealthInsurance_updated\HealthInsurance_updated\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.genruntimeconfig.cache
+C:\Users\2436731\Downloads\My_Project\HealthInsurance_updated\HealthInsurance_updated\HealthInsurance_Module1\HealthInsurance_Module1\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ref\ClaimWise.Domain.dll
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 2\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.deps.json
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 2\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.runtimeconfig.json
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 2\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 2\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 2\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.AssemblyReference.cache
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 2\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 2\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfoInputs.cache
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 2\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfo.cs
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 2\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.CoreCompileInputs.cache
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 2\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.sourcelink.json
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 2\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 2\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\refint\ClaimWise.Domain.dll
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 2\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 2\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.genruntimeconfig.cache
+C:\Users\2436731\OneDrive - Cognizant\Documents\Health_Insurance_PROJECT\HealthInsurance 2\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ref\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\HealthInsurance\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.deps.json
+C:\Users\2436727\Downloads\HealthInsurance\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.runtimeconfig.json
+C:\Users\2436727\Downloads\HealthInsurance\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\HealthInsurance\HealthInsurance\ClaimWiseDomain\bin\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436727\Downloads\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.AssemblyReference.cache
+C:\Users\2436727\Downloads\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2436727\Downloads\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfoInputs.cache
+C:\Users\2436727\Downloads\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.AssemblyInfo.cs
+C:\Users\2436727\Downloads\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.csproj.CoreCompileInputs.cache
+C:\Users\2436727\Downloads\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.sourcelink.json
+C:\Users\2436727\Downloads\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\refint\ClaimWise.Domain.dll
+C:\Users\2436727\Downloads\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.pdb
+C:\Users\2436727\Downloads\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ClaimWise.Domain.genruntimeconfig.cache
+C:\Users\2436727\Downloads\HealthInsurance\HealthInsurance\ClaimWiseDomain\obj\Debug\net8.0\ref\ClaimWise.Domain.dll
